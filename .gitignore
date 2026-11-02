@@ -1,0 +1,20 @@
+target/
+*.class
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+
+# Secrets - never commit these
+.env
+*.pem
+*.key
+kubeconfig*
